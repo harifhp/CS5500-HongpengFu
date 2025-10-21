@@ -66,9 +66,13 @@ Verify after each step: python tests/test_gilded_rose_approvals.py
 ## How to Run
 # Run for 2 days
 python texttest_fixture.py
+<img width="1316" height="600" alt="image" src="https://github.com/user-attachments/assets/914bdb81-af46-49f5-b002-fb7345563521" />
 
 # Run for 10 days
 python texttest_fixture.py 10
+<img width="819" height="959" alt="image" src="https://github.com/user-attachments/assets/e38c3edc-2a90-4770-bf57-e8ea40cc26ef" />
+<img width="800" height="960" alt="image" src="https://github.com/user-attachments/assets/9654c962-1fd6-447a-9ef6-9acbcc6dafb0" />
 
 # Run Approval Tests (30 days)
 python tests/test_gilded_rose_approvals.py
+<img width="1444" height="88" alt="image" src="https://github.com/user-attachments/assets/f91103bf-2683-4b9f-9be0-048bd735fe35" />
