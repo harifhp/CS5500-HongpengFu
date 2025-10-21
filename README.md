@@ -1,10 +1,11 @@
 Gilded Rose Refactoring Kata (CS5500)
-📝 Overview
+
+## Overview
 
 This project is a refactoring exercise for the Gilded Rose Kata, focused on improving code structure using design patterns and Test-Driven Development (TDD) principles.
 The goal was to make the legacy code more modular, readable, maintainable, and extensible — without changing the Item class or the items attribute of the GildedRose class.
 
-🧪 Testing Setup
+## Testing Setup
 Prerequisites
 
 Python 3.11+
@@ -19,8 +20,8 @@ python tests/test_gilded_rose_approvals.py
 
 All 30-day tests pass ✅ indicating behavior has been preserved during refactoring.
 
-🧠 Refactoring Strategy
-✨ Design Pattern Used
+## Refactoring Strategy
+## Design Pattern Used
 
 This refactor applies the Strategy Pattern combined with a Registry/Factory:
 
@@ -30,7 +31,7 @@ A central registry maps item names to their corresponding strategies.
 
 GildedRose.update_quality() delegates logic to the correct strategy at runtime.
 
-📦 Key Benefits
+## Key Benefits
 
 No changes to Item or items attribute (requirement satisfied).
 
@@ -40,7 +41,7 @@ Easier to add new item types in the future.
 
 All legacy behavior preserved through Golden Master testing.
 
-🧱 Code Structure
+## Code Structure
 python/
 │
 ├─ gilded_rose.py                 # Refactored core using Strategy + Registry
@@ -50,7 +51,7 @@ python/
    └─ approved_files/
       └─ test_gilded_rose_approvals.test_gilded_rose_approvals.approved.txt
 
-🧪 Test-Driven Development Workflow
+## Test-Driven Development Workflow
 
 Establish Golden Master: run text tests and save 30-day output.
 
@@ -62,7 +63,7 @@ Verify after each step: python tests/test_gilded_rose_approvals.py
 
 ✅ All tests passed after refactor.
 
-🚀 How to Run
+## How to Run
 # Run for 2 days
 python texttest_fixture.py
 
